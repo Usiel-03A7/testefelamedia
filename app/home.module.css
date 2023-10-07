@@ -1,0 +1,27 @@
+.containerHome{
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 3.4rem);
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  background-image: url("/img/coffe_beans.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-shadow: 0 0 3px #000;
+  color: #fff;
+  gap: 2rem;
+}
+.imageHome {
+  padding: 6rem;
+}
+.containerHome h1{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.containerHome p{
+  font-size: 1.5rem;
+  
+}

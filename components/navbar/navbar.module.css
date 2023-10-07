@@ -1,0 +1,28 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+  gap: 1rem;
+  height: 3.4rem;
+  background-color: white;
+  color: var(--coloraccent);
+  border-bottom: 1px solid var(--colorprimary);
+}
+.containerpages{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.containerpages li{
+  list-style: none;
+
+}
+.containerpages a{
+  text-decoration: none;
+  color: var(--coloraccent);
+  transition: opacity 0.2s ease-in-out;
+}
+.containerpages a:hover{
+  opacity: 0.7;
+}
