@@ -1,9 +1,10 @@
 import Image from "next/image"
-export default function CoffeType({nombre, imagen}){
+import styles from "./coffetype.module.css"
+export default function CoffeType({name, image}){
 return (
-  <div>
-    <h2>{nombre}</h2>
-    <Image width={100} height={100} src={imagen} alt={nombre}/>
+  <div className={styles.container}>
+    <h3>{name}</h3>
+    {/* <Image width={100} height={100} src={image} alt={nombre}/> */}
   </div>
 )
 }
