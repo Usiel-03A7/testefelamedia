@@ -1,5 +1,5 @@
 "use client"
-import { firestore } from "@/firebase/config"
+import { firestore } from "@/services/firestore"
 import { collection, getDocs } from "firebase/firestore"
 import styles from "./globalist.module.css"
 import Image from "next/image"

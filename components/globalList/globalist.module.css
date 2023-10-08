@@ -43,8 +43,8 @@
   width: 100vw;
   flex-direction: row;
   padding: 4rem;
-  align-items: start;
-  text-align: start;
+  align-items:flex-start;
+  text-align:left;
   gap: 2rem;
   padding: 8rem;
 }
