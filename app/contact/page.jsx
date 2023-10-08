@@ -1,7 +1,8 @@
 export default function Contact(){
   return (
-    <>
-    <h1>Hola estas en el contact</h1>
-    </>
+    <div>
+      <h2>formulario</h2>
+      
+    </div>
   )
 }

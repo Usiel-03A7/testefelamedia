@@ -8,3 +8,8 @@
   border-radius: 1rem;
   background-color: var(--colorgrey);
 }
+.container:hover {
+  background-color: var(--colorprimary);
+  color: var(--colorwhite);
+  cursor: pointer;
+}

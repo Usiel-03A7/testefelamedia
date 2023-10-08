@@ -3,11 +3,12 @@ import Navbar from '@/components/navbar'
 import styles from './home.module.css'
 import CoffeType from '@/components/coffetype'
 import Footer from '@/components/footer'
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <div>
-      <Navbar/>
+      
       <section className={styles.containerHome}>
         <div className={styles.titlehome}>
           <h1>Discover the finest coffee beans from local vendors</h1>
@@ -34,8 +35,9 @@ export default function Home() {
           <CoffeType name={"Mocha"} />
           <CoffeType name={"Prensa francesa"} />
         </div>
+        <Link className={styles.seeMore} href="/coffetypes"> Ver mas </Link>
       </section>
-      <Footer/>
+      
     </div>
   )
 }

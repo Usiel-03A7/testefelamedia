@@ -48,6 +48,22 @@
   justify-content: center;
 }
 
+.seeMore {
+ background-color: var(--colorsecondary);
+ border-radius: 0.7rem;
+ color: white;
+ border: solid 1px var(--colorsecondary);
+ text-decoration: none;
+ font-weight: bolder;
+ padding: 0.5rem 1rem;
+ transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.seeMore:hover {
+  color: var(--colorsecondary);
+  background-color: white;
+
+}
+
 @media (max-width: 975px) {
   .containerHome h1 {
     font-size: 2rem;

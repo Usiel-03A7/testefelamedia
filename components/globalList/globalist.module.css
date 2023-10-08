@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  height: 90vh;
+}
+.listtypes {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  height: 100%;
+}
+.listtypes h4 {
+  padding: 2rem 0 ;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+.listtypes ul {
+  list-style: none;
+  height: 100%;
+  overflow-y: auto;
+}
+.listtypes ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  transition: background-color 0.2s ease-out, color 0.2 ease-out;
+  
+}
+.listtypes>ul li:hover {
+  background-color: var(--colorgrey);
+  cursor: pointer;
+  color: var(--colorsecondary);
+  
+}
+.active {
+  background-color: var(--colorsecondary);
+  color: white;
+}
+.coffeetypes {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  padding: 4rem;
+  align-items: start;
+  text-align: start;
+  gap: 2rem;
+  padding: 8rem;
+}
+.coffeetypes p {
+  color: #000000;
+}
+.coffeetypes img {
+  object-fit: cover;
+}
+.containerInfo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 3rem;
+}
