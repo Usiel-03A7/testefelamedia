@@ -1,0 +1,57 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    color: var(--colorprimary);
+    height: 65vh;
+    margin: 2rem;
+    padding: 20px;
+    max-height: 900px;
+    padding: 2rem;
+    border-radius: 10px;
+    background: url("/img/coffeeForm.avif") no-repeat center center/cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    
+}
+.formContainer h2 {
+    font-size: 3rem;
+}
+.formStyles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 110%;
+    gap: 1.3rem;
+}
+.formStyles input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ffffffc8;
+}
+/* select last input of form */
+.formStyles input:nth-child(4) {
+    width: 90%;
+    height: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffffc8;
+    outline: none;
+    
+}
+.formStyles button {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}

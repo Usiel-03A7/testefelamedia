@@ -9,11 +9,11 @@ export default function Footer() {
       <div className={styles.information}>
         <ul className={styles.list}>
           <li>Connect with us</li>
-          <li> <Link href="https://www.facebook.com/?locale=es_LA"> Facebook</Link> </li>
-          <li><Link href="https://www.google.com"> Gmail</Link>  </li>
+          <li> <Link href="https://www.facebook.com/uzyel.solanosilva/"> Facebook</Link> </li>
+          <li> <Link href="https://github.com/Usiel-03A7"> Github</Link> </li>
           <li><Link href="https://www.Linkedin.com">Linkedin</Link></li>
-          <li><Link href="https://www.tiktok.com">Tiktok</Link></li>
-          <li><Link href="https://www.instagram.com">Instagram</Link></li>
+          <li><Link href="https://www.tiktok.com/@usiel03a7">Tiktok</Link></li>
+          <li><Link href="https://www.instagram.com/usiel_03a7/">Instagram</Link></li>
         </ul>
       </div>
     </footer>
