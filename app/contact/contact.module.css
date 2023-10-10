@@ -61,3 +61,11 @@
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .formContainer {
+        width: 90%;
+    }
+    .formStyles{
+        width: 90%;
+    }
+}
