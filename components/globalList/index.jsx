@@ -4,7 +4,8 @@ import { collection, getDocs } from "firebase/firestore"
 import styles from "./globalist.module.css"
 import Image from "next/image"
 import { useEffect, useState } from "react"
-import { CaretDoubleRight } from '@phosphor-icons/react';
+import { CaretDoubleRight, List  } from '@phosphor-icons/react';
+import { useRef } from "react"
 
 
 /*
@@ -24,6 +25,7 @@ async function getData() {
 export default function GlobalList() {
   const [types, setTypes] = useState([])
   const [selectedType, setSelectedType] = useState()
+  const [claseActiva, setClaseActiva] = useState(true)
   useEffect(() => {
     getData().then(
       result => {
@@ -35,8 +37,12 @@ export default function GlobalList() {
 
   return (
     <div className={styles.container} >
-      <div className={styles.listtypes}>
-        <h4>listado de cafe</h4>
+      <button onClick={()=>{
+        // seleccionar la clase listtypes 
+        setClaseActiva(!claseActiva);
+      }} > <List size={62} /></button>
+      <div className={claseActiva ? styles.listtypes : styles.listtopes}>
+        <h4>Listado de cafe</h4>
         <ul>
           {types.map(type => (
             <li onClick={() => {

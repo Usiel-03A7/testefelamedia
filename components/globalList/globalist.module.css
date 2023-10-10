@@ -33,7 +33,16 @@
 
 }
 
-.listtypes>ul li:hover {
+.listtypes button {
+  background-color: transparent;
+  border: none;
+  color: var(--colorprimary);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.listtypes ul li:hover {
   background-color: var(--colorgrey);
   cursor: pointer;
   color: var(--colorsecondary);
@@ -43,6 +52,7 @@
 .active {
   background-color: var(--colorsecondary);
   color: white;
+  
 }
 
 .coffeetypes {
@@ -70,36 +80,44 @@
   flex-direction: column;
   gap: 3rem;
 }
+.container button{
+  visibility: hidden;
+}
+
 
 @media (max-width: 768px) {
+  /* drop down listtypes */
   .container {
-    position: relative;
-    display: inline-block;
-    justify-content: center;
-  }
-
-  .listtypes {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    height: 90%;
-    z-index: 1;
-    margin: 30%;
-  }
-
-  .container:hover .listtypes {
-    display: block;
-  }
-
-  .listtypes ul li {
-    margin: 0 auto;
-
-  }
-  .coffeetypes {
-    justify-content: center;
     flex-direction: column;
     align-items: center;
+    height: 90%;
+    justify-content: center;
+    border: solid 2px #ff0000;
+  }
+  .container button{
+    visibility: visible;
+    border-radius: 10%;
+    width: 10rem;
+    border: solid 2px var(--colorgrey);
+    background-color: #ffffff7e;
+  }
+  .container button:hover{
+    background-color: var(--colorgrey);
+  }
+  .listtypes {
+    display: none;
+  }
+  .coffeetypes {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
     text-align: center;
   }
+  .coffeetypes ul {
+    display: flex;
+    gap: 44rem;
+
+  }
+
+
 }
