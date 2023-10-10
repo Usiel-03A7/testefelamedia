@@ -49,3 +49,36 @@
   flex-direction: row-reverse;
   padding: 5rem;
 }
+@media (max-width: 768px) {
+  .about{ 
+    flex-direction: row;
+    width: 90%;
+    padding: 1rem;
+    justify-content: center;
+    height: 100%;
+  }
+  .about img{
+    width: 100%;
+  }
+  .aboutInfo{
+    width: 100%;
+    font-size: 1rem;
+  }
+  .mision{ 
+    flex-direction: row;
+    width: 90%;
+    padding: 1rem;
+    justify-content: center;
+    height: 100%;
+  }
+  .mision img{
+    width: 100%;
+  }
+  .misionInfo{
+    width: 100%;
+    font-size: 1rem;
+  }
+ 
+
+} 
+    
