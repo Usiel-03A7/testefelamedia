@@ -11,8 +11,8 @@ export default function Home() {
       
       <section className={styles.containerHome}>
         <div className={styles.titlehome}>
-          <h1>Discover the finest coffee beans from local vendors</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure quo impedit eum quidem beatae iusto ducimus illo optio odio?</p>
+          <h1>Descubra los mejores granos de café de proveedores locales.</h1>
+          <p>Por cada grano de cafe existe un amante de cafe en el mundo</p>
         </div>
         <div className={styles.imageHome}>
          <Image
