@@ -55,3 +55,11 @@
     color: #fff;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    .formStyles {
+        width: 90%;
+    }
+    .formStyles input {
+        width: 90%;
+    }
+}

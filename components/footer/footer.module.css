@@ -34,3 +34,8 @@
   text-decoration: none;
   color: var(--colorgrey);
 }
+@media (min-width: 768px) {
+    .container {
+      gap: 8rem;
+    }
+}
