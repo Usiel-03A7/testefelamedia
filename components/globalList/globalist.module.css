@@ -46,7 +46,6 @@
   background-color: var(--colorgrey);
   cursor: pointer;
   color: var(--colorsecondary);
-
 }
 
 .active {
@@ -59,7 +58,7 @@
   display: flex;
   width: 100vw;
   flex-direction: row;
-  padding: 4rem;
+  padding: 3.9rem;
   align-items: flex-start;
   text-align: left;
   gap: 2rem;
