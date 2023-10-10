@@ -36,7 +36,7 @@ export default function GlobalList() {
   return (
     <div className={styles.container} >
       <div className={styles.listtypes}>
-        <h4>Lista de cafe</h4>
+        <h4>listado de cafe</h4>
         <ul>
           {types.map(type => (
             <li onClick={() => {
